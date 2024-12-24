@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+}
+
+.header-image {
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro h3, .intro p {
+    margin: 0 0 10px 0;
+}
+
+.songs {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.song {
+    margin-bottom: 20px;
+}
+
+.song-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.song-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: cornsilk;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.song-button:hover {
+    background-color: lightgoldenrodyellow;
+}
