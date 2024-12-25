@@ -6,99 +6,92 @@
     <title>Rustage Main Webpage</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="video-container">
-        <video autoplay muted loop id="myVideo">
+<body style="background-color: #000; color: #fff; font-family: monospace; margin: 0; padding: 0;">
+
+    <!-- Video Background Container -->
+    <div class="video-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;">
+        <video autoplay muted loop id="myVideo" style="width: 100%; height: 100%; object-fit: cover;">
             <source src="Videos/rain.mp4" type="video/mp4">
         </video>
     </div>
 
-    <header>
+    <!-- Header Section -->
+    <header style="text-align: center; padding: 20px;">
         <h1>Welcome to the Rustage FanPage</h1>
-        <img src="Images/download (1).jpeg" alt="Rustage Image 1" class="header-image">
-        <img src="Images/a728774d76edea2d91229824a8fbab7a.jpg" alt="Rustage Image 2" class="header-image">
-        <img src="Images/1.jpg" alt="Rustage Image 3" class="header-image">
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+            <div style="background-color: #111; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);">
+                <img src="Images/download (1).jpeg" alt="Rustage Image 1" class="header-image" style="width: 100%;">
+            </div>
+            <div style="background-color: #111; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);">
+                <img src="Images/a728774d76edea2d91229824a8fbab7a.jpg" alt="Rustage Image 2" class="header-image" style="width: 100%;">
+            </div>
+            <div style="background-color: #111; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);">
+                <img src="Images/1.jpg" alt="Rustage Image 3" class="header-image" style="width: 100%;">
+            </div>
+        </div>
     </header>
 
-    <div class="content">
-        <section class="intro">
+    <!-- Content Section -->
+    <div class="content" style="padding: 20px;">
+        <section class="intro" style="background-color: #111; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); margin-bottom: 20px;">
             <h3>Made by Jonathan [ultraviper]</h3>
             <p>Welcome to the webpage. The main purpose of this website is for me to practice some essential HTML coding skills as well as testing my own design creativity. So I made this Rustage fan page. It's going to be able to play some of Rustage's songs, and if possible, I'll make it play some videos as well as displaying some lyrics. Enjoy this feeble attempt at a webpage. Soon I will come back to add some design elements once I finish learning HTML and move on to CSS.</p>
         </section>
 
-        <section class="songs">
-            <h2>Songs</h2>
-            
-            <div class="song">
-                <img src="Gifs/download (6).gif" alt="Madara Gif" class="song-image">
+        
+        <section class="songs" style="display: flex; flex-wrap: wrap; gap: 20px;">
+            <div class="song" style="background-color: #111; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); width: calc(33% - 20px);">
+                <img src="Gifs/download (6).gif" alt="Madara Gif" class="song-image" style="width: 100%;">
                 <a href="Madara.html" title="Takes you to The Madara rap page">
-                    <button class="song-button">Click me</button>
+                    <button class="song-button" style="width: 100%; padding: 10px; margin-top: 10px;">Click me</button>
                 </a>
                 <h3>God Mode Madara Rap</h3>
-                <p>
-                    Madara Uchiha is a key antagonist in Naruto and one of the most powerful shinobi in history. He was a co-founder of the Hidden Leaf Village (Konohagakure) alongside Hashirama Senju. A master of the Sharingan and later the Rinnegan, Madara’s ambition was to create a world free of conflict using the Infinite Tsukuyomi, a genjutsu that would trap humanity in an eternal dream. His resurrection during the Fourth Great Ninja War cemented his status as one of the series’ most iconic villains.
-                </p>
+                <p>Madara Uchiha is a key antagonist in Naruto and one of the most powerful shinobi in history. He was a co-founder of the Hidden Leaf Village (Konohagakure) alongside Hashirama Senju. A master of the Sharingan and later the Rinnegan, Madara’s ambition was to create a world free of conflict using the Infinite Tsukuyomi, a genjutsu that would trap humanity in an eternal dream. His resurrection during the Fourth Great Ninja War cemented his status as one of the series’ most iconic villains.</p>
             </div>
-            
-            <div class="song">
-                <img src="Gifs/download (4).gif" alt="Team 7 Gif" class="song-image">
+
+            <div class="song" style="background-color: #111; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); width: calc(33% - 20px);">
+                <img src="Gifs/download (4).gif" alt="Team 7 Gif" class="song-image" style="width: 100%;">
                 <a href="Team 7.html" title="Takes you to the team 7 rap Cypher page">
-                    <button class="song-button">Click me</button>
+                    <button class="song-button" style="width: 100%; padding: 10px; margin-top: 10px;">Click me</button>
                 </a>
                 <h3>Turn it up (Team 7 rap)</h3>
-                <p>
-                    Team 7 is the central group of protagonists in Naruto. Initially formed under Kakashi Hatake’s leadership, the team includes:
-                    Naruto Uzumaki: The hyperactive ninja dreaming of becoming Hokage.
-                    Sasuke Uchiha: A talented but vengeful shinobi from the Uchiha clan.
-                    Sakura Haruno: A kunoichi with exceptional chakra control, not to mention useless asf (contributes 0.0001% to the overall team strengths)
-                    Kakashi Hatake: Their skilled jonin leader, known for his Sharingan and cool demeanor. In Naruto: Shippuden, the team eventually reunites to face greater threats, evolving both in members and dynamic.
-                </p>
+                <p>Team 7 is the central group of protagonists in Naruto. Initially formed under Kakashi Hatake’s leadership, the team includes: Naruto Uzumaki: The hyperactive ninja dreaming of becoming Hokage. Sasuke Uchiha: A talented but vengeful shinobi from the Uchiha clan. Sakura Haruno: A kunoichi with exceptional chakra control, not to mention useless asf (contributes 0.0001% to the overall team strengths) Kakashi Hatake: Their skilled jonin leader, known for his Sharingan and cool demeanor. In Naruto: Shippuden, the team eventually reunites to face greater threats, evolving both in members and dynamic.</p>
             </div>
 
-            <div class="song">
-                <img src="Gifs/Bnha Mha GIF – Bnha Mha Midoriya – discover and share GIFs.gif" alt="Shonen Jump Gif" class="song-image">
+            <div class="song" style="background-color: #111; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); width: calc(33% - 20px);">
+                <img src="Gifs/Bnha Mha GIF – Bnha Mha Midoriya – discover and share GIFs.gif" alt="Shonen Jump Gif" class="song-image" style="width: 100%;">
                 <a href="Shonen jump.html" title="Takes you to the shonen jump rap page">
-                    <button class="song-button">Click me</button>
+                    <button class="song-button" style="width: 100%; padding: 10px; margin-top: 10px;">Click me</button>
                 </a>
                 <h3>Shonen Jump Rap</h3>
-                <p>
-                    Shonen Jump is a popular Japanese manga magazine known for serializing some of the most famous anime. It targets a young male audience, focusing on themes like friendship, perseverance, and overcoming challenges. Notable Shonen Jump anime include:
-                    Naruto, Dragon Ball Z, One Piece, Bleach, My Hero Academia.
-                </p>
+                <p>Shonen Jump is a popular Japanese manga magazine known for serializing some of the most famous anime. It targets a young male audience, focusing on themes like friendship, perseverance, and overcoming challenges. Notable Shonen Jump anime include: Naruto, Dragon Ball Z, One Piece, Bleach, My Hero Academia.</p>
             </div>
 
-            <div class="song">
-                <img src="Gifs/download (2).gif" alt="Hokage Gif" class="song-image">
+            <div class="song" style="background-color: #111; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); width: calc(33% - 20px);">
+                <img src="Gifs/download (2).gif" alt="Hokage Gif" class="song-image" style="width: 100%;">
                 <a href="Hokage.html" title="Takes you to the hokage rap cypher page">
-                    <button class="song-button">Click me</button>
+                    <button class="song-button" style="width: 100%; padding: 10px; margin-top: 10px;">Click me</button>
                 </a>
                 <h3>Hokage Rap</h3>
-                <p>
-                    The Hokage is the title given to the leader of the Hidden Leaf Village (Konohagakure) in Naruto. The role signifies the strongest and most respected ninja of the village. Notable Hokage include:
-                    Hashirama Senju, Tobirama Senju, Hiruzen Sarutobi, Minato Namikaze, Tsunade Senju, Kakashi Hatake, Naruto Uzumaki.
-                </p>
+                <p>The Hokage is the title given to the leader of the Hidden Leaf Village (Konohagakure) in Naruto. The role signifies the strongest and most respected ninja of the village. Notable Hokage include: Hashirama Senju, Tobirama Senju, Hiruzen Sarutobi, Minato Namikaze, Tsunade Senju, Kakashi Hatake, Naruto Uzumaki.</p>
             </div>
 
-            <div class="song">
-                <img src="Gifs/download (1).gif" alt="Gogeta Gif" class="song-image">
+            <div class="song" style="background-color: #111; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); width: calc(33% - 20px);">
+                <img src="Gifs/download (1).gif" alt="Gogeta Gif" class="song-image" style="width: 100%;">
                 <a href="Gogeta.html" title="Takes you to the gogeta rap page">
-                    <button class="song-button">Click me</button>
+                    <button class="song-button" style="width: 100%; padding: 10px; margin-top: 10px;">Click me</button>
                 </a>
                 <h3>Unit (Gogeta Rap)</h3>
-                <p>
-                    Gogeta is a fusion character in the Dragon Ball series, created when Goku and Vegeta perform the Fusion Dance. He combines the strengths of both Saiyans, making him an immensely powerful fighter. Unlike Vegito, Gogeta’s counterpart (from the Potara Earrings fusion), Gogeta is often depicted as more playful but just as deadly in battle. He appears prominently in Dragon Ball Z: Fusion Reborn and Dragon Ball Super: Broly.
-                </p>
+                <p>Gogeta is a fusion character in the Dragon Ball series, created when Goku and Vegeta perform the Fusion Dance. He combines the strengths of both Saiyans, making him an immensely powerful fighter. Unlike Vegito, Gogeta’s counterpart (from the Potara Earrings fusion), Gogeta is often depicted as more playful but just as deadly in battle. He appears prominently in Dragon Ball Z: Fusion Reborn and Dragon Ball Super: Broly.</p>
             </div>
 
-            <div class="song">
-                <img src="Gifs/Subaru Anime GIF - Subaru Anime - Descobrir e Compartilhar GIFs.gif" alt="Re Zero Gif" class="song-image">
+            <div class="song" style="background-color: #111; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); width: calc(33% - 20px);">
+                <img src="Gifs/Subaru Anime GIF - Subaru Anime - Descobrir e Compartilhar GIFs.gif" alt="Re Zero Gif" class="song-image" style="width: 100%;">
                 <a href="Re zero.html" title="Takes you to the re zero rap page">
-                    <button class="song-button">Click me</button>
+                    <button class="song-button" style="width: 100%; padding: 10px; margin-top: 10px;">Click me</button>
                 </a>
                 <h3>Again (Re zero rap)</h3>
-                <p>
-                    Subaru Natsuki’s journey in Re:Zero is marked by intense psychological and emotional pain. His ability, “Return by Death,” forces him to relive his own gruesome deaths and repeatedly witness the suffering of those he cares about. Each loop takes a toll on his mental health, as he faces rejection, betrayal, and the weight of decisions that affect everyone around him. Despite his agony, Subaru perseveres, driven by his love for Emilia and his unyielding desire to protect others, even as the scars of his failures accumulate.
-                </p>
+                <p>Subaru Natsuki’s journey in Re:Zero is marked by intense psychological and emotional pain. His ability, “Return by Death,” forces him to relive his own gruesome deaths and repeatedly witness the suffering of those he cares about. Each loop takes a toll on his mental health, as he faces rejection, betrayal, and the weight of decisions that affect everyone around him. Despite his agony, Subaru perseveres, driven by his love for Emilia and his unyielding desire to protect others, even as the scars of his failures accumulate.</p>
             </div>
         </section>
     </div>
